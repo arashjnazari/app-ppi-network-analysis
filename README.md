@@ -79,10 +79,10 @@ Community detection uses greedy modularity maximization on the LCC. Colors and i
 
 For positive integer observations `x >= xmin`, the fitted tail model is
 
-\[
+$$
 P(X=x\mid X\ge x_{\min}) = \frac{x^{-\alpha}}{\zeta(\alpha,x_{\min})},
 \qquad \alpha>1,
-\]
+$$
 
 where the denominator is the Hurwitz zeta function. In the code and tables the parameters are named **`alpha`** and **`xmin`**.
 
